@@ -36,3 +36,8 @@ override.tf.json
 .terraformrc
 terraform.rc
 !vcs.auto.tfvars
+!terraform.tfvars
+!modularized_config/_stacks_generated/.terraform.lock.hcl
+!modularized_config/stacks_migration_infra/.terraform.lock.hcl
+!modularized_config/stacks_migration_infra/terraform.tfstate
+!modularized_config/.terraform.lock.hcl

@@ -18,9 +18,11 @@ terraform {
 
 
 # Configure the AWS Provider
+/* commented by tf-migrate, ref - https://developer.hashicorp.com/terraform/language/stacks/create/declare-providers 
 provider "aws" {
   region = "ap-south-1"
 }
+*/
 
 
 # Create S3 bucket
